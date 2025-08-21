@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+body, #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.app-main-content { /* wrap your page content in this class */
+    flex: 1;
+}

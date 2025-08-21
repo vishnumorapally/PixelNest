@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.844);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-link{
+    color: red;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: rgb(255, 249, 60);
+}

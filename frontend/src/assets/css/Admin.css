@@ -1,0 +1,179 @@
+.admin-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.admin-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.admin-form input,
+.admin-form textarea {
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #fafbfc;
+  transition: border 0.2s;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border: 1.5px solid red;
+  outline: none;
+}
+
+.admin-form button {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.admin-form button:hover {
+  background: #155ab6;
+}
+
+.admin-success {
+  color: green;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.admin-error {
+  color: red;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .admin-container {
+    padding: 1rem 0.5rem;
+  }
+  .admin-title {
+    font-size: 1.3rem;
+  }
+  .admin-form input,
+  .admin-form textarea {
+    font-size: 0.97rem;
+    padding: 0.7rem;
+  }
+  .admin-form button {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+
+.admin-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.admin-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.admin-form input,
+.admin-form textarea {
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #fafbfc;
+  transition: border 0.2s;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border: 1.5px solid red;
+  outline: none;
+}
+
+.admin-form button {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.admin-form button:hover {
+  background: #155ab6;
+}
+
+.admin-success {
+  color: green;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.admin-error {
+  color: red;
+  font-weight: 500;
+  text-align: center;
+}
+
+.admin-form .admin-btn-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .admin-container {
+    padding: 1rem 0.5rem;
+  }
+  .admin-title {
+    font-size: 1.3rem;
+  }
+  .admin-form input,
+  .admin-form textarea {
+    font-size: 0.97rem;
+    padding: 0.7rem;
+  }
+  .admin-form button {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  .admin-form .admin-btn-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
